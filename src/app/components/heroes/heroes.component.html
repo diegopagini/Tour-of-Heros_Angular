@@ -1,0 +1,13 @@
+<div>
+  <ul>
+    <li
+      [ngClass]="{ selected: selectedHero?.id === hero.id }"
+      (click)="onSelect(hero)"
+      *ngFor="let hero of heroes"
+    >
+      <span>{{ hero.id }} - {{ hero.name }}</span>
+    </li>
+  </ul>
+</div>
+
+<app-hero-details [hero]="selectedHero"></app-hero-details>
