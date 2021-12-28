@@ -1,0 +1,26 @@
+.header,
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header nav {
+  width: 100%;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+.header nav ul li:hover {
+  transform: scale(1.1);
+}

@@ -28,6 +28,6 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
-    this.messageService.sendMessage(`Hi, my name is: ${hero.name}`);
+    this.messageService.sendMessage(`Hi 🖐, my name is: ${hero.name}`);
   }
 }

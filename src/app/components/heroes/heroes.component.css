@@ -1,3 +1,22 @@
+.heroes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.heroes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.heroes ul .heroe {
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
 .selected {
-  background-color: red;
+  border: 1px solid #cf1e1e;
+  border-radius: 5px;
 }

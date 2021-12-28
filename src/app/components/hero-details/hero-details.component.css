@@ -1,0 +1,16 @@
+.hero,
+.hero picture {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  margin: 0;
+}
+
+.hero picture img {
+  height: 300px;
+  width: 300px;
+}

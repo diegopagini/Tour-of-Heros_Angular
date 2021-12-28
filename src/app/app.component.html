@@ -1,9 +1,13 @@
-<h1>{{ title | uppercase }}</h1>
-<nav>
-  <ul>
-    <li routerLink="/heroes">Heroes</li>
-    <li routerLink="/message">Message</li>
-  </ul>
-</nav>
+<header class="header">
+  <h1>{{ title | uppercase }}</h1>
+  <nav>
+    <ul>
+      <li routerLink="/heroes" title="Navegar a Heroes">Heroes</li>
+      <li routerLink="/message" title="Navegar a Message">Message</li>
+    </ul>
+  </nav>
+</header>
 
-<router-outlet></router-outlet>
+<section class="container">
+  <router-outlet></router-outlet>
+</section>

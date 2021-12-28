@@ -1,6 +1,8 @@
-<div>
+<div class="heroes">
+  <h3>Listado de heroes:</h3>
   <ul>
     <li
+      class="heroe"
       [ngClass]="{ selected: selectedHero?.id === hero.id }"
       (click)="onSelect(hero)"
       *ngFor="let hero of heroes"

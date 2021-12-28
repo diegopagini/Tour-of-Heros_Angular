@@ -1,4 +1,9 @@
-<div *ngIf="hero">
-  <h2>name: {{ hero?.name }}</h2>
-  <p>power: {{ hero?.power }}</p>
+<div class="hero" *ngIf="hero">
+  <h2>{{ hero?.name }}</h2>
+  <picture>
+    <img [src]="hero.image" [alt]="hero.name" />
+    <figcaption>
+      power: <strong>{{ hero?.power }}</strong>
+    </figcaption>
+  </picture>
 </div>
