@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "heroes-curso-angular"
+  },
+  "targets": {
+    "heroes-curso-angular": {
+      "hosting": {
+        "heroes": [
+          "heroes-curso-angular"
+        ]
+      }
+    }
   }
 }
