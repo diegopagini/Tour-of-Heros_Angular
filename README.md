@@ -1,3 +1,5 @@
+Se agregaron algunos estilos para mejorar la apariencia que no se ven en el curso.
+
 # Heroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
