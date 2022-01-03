@@ -9,13 +9,4 @@ export const environment = {
     measurementId: 'G-TPTBB5VW9C',
   },
   production: true,
-  firebaseConfig: {
-    apiKey: 'AIzaSyDgouePeRwnGFQHFpftsx0Ngi_uO1Kbbcw',
-    authDomain: 'heroes-curso-angular.firebaseapp.com',
-    projectId: 'heroes-curso-angular',
-    storageBucket: 'heroes-curso-angular.appspot.com',
-    messagingSenderId: '996731412743',
-    appId: '1:996731412743:web:1b60be5b246f75b92325a2',
-    measurementId: 'G-TPTBB5VW9C',
-  },
 };
